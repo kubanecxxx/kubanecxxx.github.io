@@ -1,0 +1,50 @@
+body
+{
+	background-color: black;
+	color: white
+}
+
+
+#mujdiv
+{
+	width : 100px;
+	height : 100px;
+	background-color: yellow;	
+	color: red;
+	
+}
+
+ td
+{
+	
+	border:1px dotted yellow;
+	padding: 0px 10px 0px 10px;
+}
+
+#osa 
+{
+	color :red;
+	font-size : 30px;	
+}
+
+#myCanvas
+ {
+	background-color: gray;	
+	border: 1px yellow solid;
+}
+
+#override
+{
+     float : left;
+     background-color:gray;
+     width : 100px;
+     margin : 0px 10px 0px 10px;
+
+
+}
+
+button
+{
+ width : 100px;
+ height: 30px;
+}

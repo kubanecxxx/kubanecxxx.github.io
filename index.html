@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+ <link rel="stylesheet" href="styles.css"> 
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="jcanvas.min.js"></script>
+<script src= "javasc.js"></script>
+<meta charset="utf-8">
+</head>
+
+<body>
+
+
+<hr>
+Simulátor <button id = mybutton> -------- Jedem ---------- </button>
+<input type = checkbox id = krokovat> krokovat</input>
+<button id = krok disabled =1> Další krok</button>
+<button id = reset> reset </button>
+<br>
+Fyzická poloha osy před referováním
+<input type = number id = zacatek value = 230>  </input>
+Start vačky
+<input type = number id = lim_l min = 0 max = 500 > </input>
+Konec vačky
+<input type = number id = lim_h min = 0 max = 500> </input>
+
+<br>
+
+
+<span id = vacka> </span>
+   Poloha osy     <span id = "osa" >    0.00 </span>
+    Poloha osy fyzicky     <span id = "osa2" >    0.00 </span>
+    <br>
+        Stavový automat:     <span id = "automat" > </span>
+<br>
+<canvas id="myCanvas" width="800" height="300">
+  <p>This is fallback content 
+  for users of assistive technologies 
+  or of browsers that don't have 
+  full support for the Canvas API.</p>
+</canvas>
+<div id = override>
+Override
+<div id = override_div>
+</div>
+<div style = "width :40px" >
+<input type = range name = "points" orient=vertical id = override_slider min = 0 max = 120
+style="-webkit-appearance:slider-vertical"> </input>
+</div>
+</div>
+</div>
+
+
+<div>
+
+<hr>
+Parametry osy - z mašiny
+<table id = supertable>
+
+<tr>
+<td>číslo</td><td>název</td><td>hodnota</td><td>co dělá</td>
+</tr>
+
+
+</table>
+</div>
+
+
+</body>
+</html>
